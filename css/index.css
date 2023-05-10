@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: silver;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("https://source.unsplash.com/random/900*700/?nature,water");
+
+}
+
+.card {
+    background-color: rgb(0, 1, 2);
+    color: aliceblue;
+    padding: 2em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.searchbar {
+    width: 80%;
+    padding: .4em;
+    border-radius: 16px;
+    height:30px;
+    border: none;
+    color: aliceblue;
+    background-color: #1a1818;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.btn {
+
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 0.5em;
+   border: none;
+    background-color: #313131;
+    color: aliceblue;
+}
+
+.btn :hover {
+  color: rgb(2, 154, 180);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.max_min{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
